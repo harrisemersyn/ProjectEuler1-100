@@ -2,7 +2,7 @@ import java.util.Random;
 import java.lang.Math;
 import java.math.BigInteger;
 
-public class ProblemThree{
+public class Problem3{
     public static void main(String[] args){
         int randNum;
         BigInteger largestPrime = new BigInteger("0");

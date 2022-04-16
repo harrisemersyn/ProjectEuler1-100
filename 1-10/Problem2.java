@@ -1,4 +1,4 @@
-public class ProblemTwo{
+public class Problem2{
     public static void main(String[] args){
         //first term
         int i = 1;

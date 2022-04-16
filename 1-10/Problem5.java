@@ -1,4 +1,4 @@
-public class ProblemFive{
+public class Problem5{
     public static void main(String[] args){
         //won't check for mod with numbers that are divisible amongst each other in 1-20
         //check: 20, 19, 18, 17, 16, 15, 14, 13, 12, 11

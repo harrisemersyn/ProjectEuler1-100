@@ -1,4 +1,4 @@
-public class ProblemOne{
+public class Problem1{
     public static void main(String[] args){
         int multOfThree = 3; 
         int multOfFive = 5;

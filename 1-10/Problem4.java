@@ -1,4 +1,4 @@
-public class ProblemFour{
+public class Problem4{
     public static void main(String[] args){
         //Note: coming back to relook at this one later to look for a better solution that isn't brute force
         String temp = "";
