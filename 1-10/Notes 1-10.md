@@ -1,0 +1,7 @@
+Project Euler Problems 1-10 Notes
+----------------------------------
+I will make notes on the rest of the ones I've finished when I'm not tired and lazy
+
+Problem 8
+----------
+The first attempt I made with the brute-force method was straight-forward, other than not realizing for a minute that the product was to big for Java int to handle, and I had to make changes using BigInteger. I thought that I might be able to make things run faster if I took a more methodical approach instead of testing every single combination of products, which I have in Problem8a.java. I parsed the digit string and made a list out of all substrings that did not contain a 0, since with a 0 in the string, it would be useless to calculate the product anyways. Then, I took the largest number(s) in each substring and rotated around it to get the biggest substring-of-a-substring. Needless to say, it was not more efficient because it took way too many for-loops. I tested it out with a second data set of 10000000000 numbers, and the efficiency results were the same as the lower number test. I think next I will try combining both attempts, with still taking the substrings without 0's in them, and brute-forcing the substrings, but I don't think that will run faster than the original either.

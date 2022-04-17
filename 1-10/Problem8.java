@@ -7,8 +7,9 @@ import java.nio.charset.StandardCharsets;
 import java.math.BigInteger;
 
 public class Problem8{
-    //Revist for more efficient solution
+    //Revist for more efficient solution (?)
     public static void main(String[] args) throws IOException{
+        long startTime = System.nanoTime();
         BigInteger biggestProduct =  new BigInteger("0");
         BigInteger temporaryProduct = new BigInteger("1");
         Path fileName = Path.of("DigitString.txt");
@@ -29,5 +30,8 @@ public class Problem8{
             temporaryProduct = BigInteger.valueOf(1);
         }
         System.out.println(biggestProduct);
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println(totalTime);
     }
 }
