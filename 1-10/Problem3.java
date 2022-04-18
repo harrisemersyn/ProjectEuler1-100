@@ -2,8 +2,15 @@ import java.util.Random;
 import java.lang.Math;
 import java.math.BigInteger;
 
+/*
+Notes
+
+Definitely coming back to this one to try an alternetive for a primality test that isn't fermats
+*/
+
 public class Problem3{
     public static void main(String[] args){
+        long startTime = System.nanoTime();
         int randNum;
         BigInteger largestPrime = new BigInteger("0");
         BigInteger temp = new BigInteger("0");
@@ -29,5 +36,8 @@ public class Problem3{
                 break;
             }
         }
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Runtime:" + totalTime);
     }
 }

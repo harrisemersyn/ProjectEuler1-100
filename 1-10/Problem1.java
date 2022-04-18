@@ -5,9 +5,7 @@ public class Problem1{
         int multOfFive = 5;
         int sum = 0;
         while((multOfThree < 1000) | (multOfFive < 1000)){
-            if(multOfThree < 1000){
-                sum += multOfThree;
-            } 
+            sum += multOfThree;
             if(multOfFive < 1000){
                 //excludes duplicates
                 if((multOfFive % 3) != 0){

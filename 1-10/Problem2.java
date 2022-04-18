@@ -1,5 +1,6 @@
 public class Problem2{
     public static void main(String[] args){
+        long startTime = System.nanoTime();
         //first term
         int i = 1;
         //second term
@@ -8,7 +9,7 @@ public class Problem2{
         int sum = 2;
         //temporary variable to hold the next number in
         int temp = 0;
-        while((i <= 4000000) & (j <= 4000000)){
+        while(j <= 4000000){
             temp = i + j;
             i = j;
             j = temp;
@@ -17,5 +18,8 @@ public class Problem2{
             }
         }
         System.out.println(sum);
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Runtime:" + totalTime);
     }
 }
