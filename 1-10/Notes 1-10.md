@@ -2,7 +2,7 @@ Project Euler Problems 1-10 Notes
 ----------------------------------
 I will make notes on the rest of the ones I've finished when I'm not tired and lazy
 
-DigitString.txt is a file of the digits from problem 8. DigitStringTwo is a larger, randomly generated string of numbers I used to test runtime.
+DigitString.txt is a file of the digits from problem 8. DigitStringTwo.txt is a larger, randomly generated string of numbers I used to test runtime.
 
 Problem 1
 ----------
@@ -21,6 +21,10 @@ One thing I noticed is that the Fibbonaci sequence follows the pattern odd-odd-e
 Problem 3
 ----------
 In this problem, I used brute-force to go through all of the numbers and check to see if they were a factor, and if a factor, then a prime. But I used fermat's primality test, which comes with a for loop, and room for error with carmichael numbers. This is probably a good place for me to go back to and look for other primality tests.
+
+Problem 4
+----------
+Currently just brute force.
 
 Problem 8
 ----------

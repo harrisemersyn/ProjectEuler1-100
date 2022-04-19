@@ -81,7 +81,7 @@ public class Problem8a {
                             }
                             count++;
                         }
-                        String tempToString = tempLargest.toString();
+                        String tempToString = tempLargest;
                         BigInteger tempMult = new BigInteger("1");
                         for(int z = 0; z < tempToString.length(); z++){
                             tempMult = tempMult.multiply(BigInteger.valueOf(Character.getNumericValue(tempToString.charAt(z))));

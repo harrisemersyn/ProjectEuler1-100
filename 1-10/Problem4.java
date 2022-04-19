@@ -1,6 +1,7 @@
 public class Problem4{
     public static void main(String[] args){
         //Note: coming back to relook at this one later to look for a better solution that isn't brute force
+        long startTime = System.nanoTime();
         String temp = "";
         String tempTwo = "";
         boolean found = false;
@@ -17,5 +18,8 @@ public class Problem4{
             }
         }
         System.out.println(finalPalindrome);
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Runtime:" + totalTime);
     }
 }
